@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Agendamento de Consulta Médica</title>
+</head>
+<body>
+  <div style="text-align: center;">
+    <h2>Agendamento de Consulta Médica</h2>
+    <form>
+    <div>
+      <label for="Nome">Nome:</label>
+      <br>
+      <input type="text" name="nome" id="Nome" required>
+    </div>
+    <br>
+    <div>
+      <label for="Email">E-mail:</label>
+      <br>
+      <input type="email" name="email" id="Email" required>
+    </div>
+    <br>
+    <div>
+    <label for="Telefone">Telefone:</label>
+    <br>
+    <input type="tel" name="telefone" id="Telefone" required>
+    </div>
+    <br>
+    <div>
+    <label for="Data-consulta">Data da Consulta:</label>
+    <br>
+    <input type="date" name="data-consulta" id="Data-consulta" required>
+    </div>
+    <br>
+    <div>
+    <label for="Tipo-de-Consulta">Tipo de Consulta:</label>
+    <br>
+    <select name="tipo-de-consulta" id="Tipo-de-Consulta">
+      <option disabled selected value="">Selecione uma opção</option>
+      <option>Consulta Geral</option>
+      <option>Consulta Cardiologista</option>
+      <option>Consulta Neurologista</option>
+      <option>Consulta Pneumologista</option>
+      </select>
+    </div>
+    <br>
+    <div>
+      <label for="comentarios">Comentários Adicionais:</label> <br>
+      <textarea name="comentarios" id="Comentarios"></textarea>
+    </div>
+    <br>
+    <div>
+      <button type="submit">Enviar</button>
+    </div>
+    </form>
+    <hr>
+    <button><a href="index.html">Voltar para a página inicial</a></button>
+    </form>
+  </div>
+</body>
+</html>

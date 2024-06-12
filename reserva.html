@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reserva do Hotel</title>
+</head>
+<body>
+  <div style="text-align: center;">
+  <h2>Faça a sua reserva:</h2>
+  <form>
+    <div>
+      <label for="Nome">Nome:</label>
+      <input type="text" name="nome" id="Nome" required>
+    </div>
+    <br>
+    <div>
+      <label for="Email">Email:</label>
+      <input type="email" name="email" id="Email" required>
+    </div>
+    <br>
+    <div>
+    <label for="Check-in">Data de Chec-in:</label> <br>
+    <input type="date" name="data-check-in" id="Check-in" required>
+    </div>
+    <br>
+    <div>
+      <label for="Check-out">Data de Check-out:</label>
+      <br>
+      <input type="date" name="data-check-out" id="Check-out" required>
+    </div>
+    <br>
+    <div>
+      <label for="Tipo-de-Quarto">Tipo de Quarto:</label>
+      <br>
+      <select name="tipo-de-quarto" id="Tipo-de-Quarto">
+        <option disabled selected value="">Selecione uma opção</option>
+        <option>Quarto com uma cama de casal e duas camas de solteiro</option>
+        <option>Quarto de casal premium</option>
+        <option>Quarto de casal com vista para o mar</option>
+        <option>Quarto com uma cama de solteiro</option>
+      </select>
+    </div>
+    <br>
+    <div>
+    <label for="comentarios">Comentários Adicionais:</label> <br>
+    <textarea name="comentarios" id="Comentarios"></textarea>
+    </div>
+    <br>
+    <div>
+      <button type="submit">Enviar</button>
+    </div>
+  </form>
+  <hr>
+  <button><a href="index.html">Voltar para a página inicial</a></button>
+  </div>
+</body>
+</html>
